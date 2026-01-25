@@ -1,0 +1,9 @@
+artifacts_root: artifacts
+
+# here i am define data ingestion resources
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/krishnaik06/datasets/raw/main/winequality-data.zip
+  local_data_file: artifacts/data_ingestion/data.zip # zip file downloaded this path
+  unzip_dir: artifacts/data_ingestion # here download unzip file 
